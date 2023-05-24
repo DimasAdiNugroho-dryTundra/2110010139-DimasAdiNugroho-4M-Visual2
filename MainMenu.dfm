@@ -22,6 +22,10 @@ object Form1: TForm1
     end
     object LATIHAN1: TMenuItem
       Caption = 'LATIHAN'
+      OnClick = LATIHAN1Click
+      object LATIHAN11: TMenuItem
+        Caption = 'LATIHAN 1'
+      end
     end
     object DATABASE1: TMenuItem
       Caption = 'DATABASE'

@@ -12,6 +12,8 @@ type
     FILE1: TMenuItem;
     LATIHAN1: TMenuItem;
     DATABASE1: TMenuItem;
+    LATIHAN11: TMenuItem;
+    procedure LATIHAN1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -23,6 +25,13 @@ var
 
 implementation
 
+uses Latihan1;
+
 {$R *.dfm}
+
+procedure TForm1.LATIHAN1Click(Sender: TObject);
+begin
+ Form2.ShowModal;
+end;
 
 end.
