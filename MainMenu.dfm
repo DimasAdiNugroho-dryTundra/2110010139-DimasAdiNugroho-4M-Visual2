@@ -42,6 +42,10 @@ object Form1: TForm1
         Caption = 'GRAFIK STRINNGGRID'
         OnClick = GRAFIKSTRINNGGRID1Click
       end
+      object GRAFIKSTRINGGRIDREVISI1: TMenuItem
+        Caption = 'GRAFIK STRINGGRID REVISI'
+        OnClick = GRAFIKSTRINGGRIDREVISI1Click
+      end
     end
     object DATABASE1: TMenuItem
       Caption = 'DATABASE'
