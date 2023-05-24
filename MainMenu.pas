@@ -13,7 +13,9 @@ type
     LATIHAN1: TMenuItem;
     DATABASE1: TMenuItem;
     LATIHAN11: TMenuItem;
-    procedure LATIHAN1Click(Sender: TObject);
+    LATIHAN21: TMenuItem;
+    procedure LATIHAN21Click(Sender: TObject);
+    procedure LATIHAN11Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -25,13 +27,18 @@ var
 
 implementation
 
-uses Latihan1;
+uses Latihan1, Latihan2;
 
 {$R *.dfm}
 
-procedure TForm1.LATIHAN1Click(Sender: TObject);
+procedure TForm1.LATIHAN21Click(Sender: TObject);
 begin
- Form2.ShowModal;
+  Form3.ShowModal;
+end;
+
+procedure TForm1.LATIHAN11Click(Sender: TObject);
+begin
+  Form2.ShowModal;
 end;
 
 end.
