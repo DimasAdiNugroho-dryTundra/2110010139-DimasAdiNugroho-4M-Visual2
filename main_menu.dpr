@@ -8,7 +8,9 @@ uses
   Kondisional1 in 'Kondisional1.pas' {Form4},
   Kondisional2 in 'Kondisional2.pas' {Form5},
   GrafikStringgrid in 'GrafikStringgrid.pas' {Form6},
-  GrafikStringgridRevisi in 'GrafikStringgridRevisi.pas' {Form7};
+  GrafikStringgridRevisi in 'GrafikStringgridRevisi.pas' {Form7},
+  Jadwal in 'Jadwal.pas' {Form8},
+  Ujadwal in 'Ujadwal.pas' {Form9};
 
 {$R *.res}
 
@@ -21,5 +23,7 @@ begin
   Application.CreateForm(TForm5, Form5);
   Application.CreateForm(TForm6, Form6);
   Application.CreateForm(TForm7, Form7);
+  Application.CreateForm(TForm8, Form8);
+  Application.CreateForm(TForm9, Form9);
   Application.Run;
 end.

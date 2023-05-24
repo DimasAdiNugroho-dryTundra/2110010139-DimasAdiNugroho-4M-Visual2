@@ -26,6 +26,7 @@ type
     procedure KONDISIONAL21Click(Sender: TObject);
     procedure GRAFIKSTRINNGGRID1Click(Sender: TObject);
     procedure GRAFIKSTRINGGRIDREVISI1Click(Sender: TObject);
+    procedure DATABASE1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -38,7 +39,7 @@ var
 implementation
 
 uses Latihan1, Latihan2, Kondisional1, Kondisional2, GrafikStringgrid,
-  GrafikStringgridRevisi;
+  GrafikStringgridRevisi, Jadwal;
 
 {$R *.dfm}
 
@@ -75,6 +76,11 @@ end;
 procedure TForm1.GRAFIKSTRINGGRIDREVISI1Click(Sender: TObject);
 begin
  Form7.ShowModal;
+end;
+
+procedure TForm1.DATABASE1Click(Sender: TObject);
+begin
+ Form8.ShowModal;
 end;
 
 end.

@@ -49,6 +49,7 @@ object Form1: TForm1
     end
     object DATABASE1: TMenuItem
       Caption = 'DATABASE'
+      OnClick = DATABASE1Click
     end
     object EXIT1: TMenuItem
       Caption = 'EXIT'
