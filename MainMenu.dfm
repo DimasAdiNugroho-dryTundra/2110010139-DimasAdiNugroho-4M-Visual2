@@ -30,9 +30,17 @@ object Form1: TForm1
         Caption = 'LATIHAN 2'
         OnClick = LATIHAN21Click
       end
+      object KONDISIONAL11: TMenuItem
+        Caption = 'KONDISIONAL 1'
+        OnClick = KONDISIONAL11Click
+      end
     end
     object DATABASE1: TMenuItem
       Caption = 'DATABASE'
+    end
+    object EXIT1: TMenuItem
+      Caption = 'EXIT'
+      OnClick = EXIT1Click
     end
   end
 end

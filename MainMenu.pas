@@ -14,8 +14,12 @@ type
     DATABASE1: TMenuItem;
     LATIHAN11: TMenuItem;
     LATIHAN21: TMenuItem;
+    KONDISIONAL11: TMenuItem;
+    EXIT1: TMenuItem;
     procedure LATIHAN21Click(Sender: TObject);
     procedure LATIHAN11Click(Sender: TObject);
+    procedure KONDISIONAL11Click(Sender: TObject);
+    procedure EXIT1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -27,7 +31,7 @@ var
 
 implementation
 
-uses Latihan1, Latihan2;
+uses Latihan1, Latihan2, Kondisional1;
 
 {$R *.dfm}
 
@@ -39,6 +43,16 @@ end;
 procedure TForm1.LATIHAN11Click(Sender: TObject);
 begin
   Form2.ShowModal;
+end;
+
+procedure TForm1.KONDISIONAL11Click(Sender: TObject);
+begin
+  Form4.ShowModal;
+end;
+
+procedure TForm1.EXIT1Click(Sender: TObject);
+begin
+  Application.Terminate;
 end;
 
 end.
