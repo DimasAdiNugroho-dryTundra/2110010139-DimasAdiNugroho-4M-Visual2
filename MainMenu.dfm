@@ -34,6 +34,10 @@ object Form1: TForm1
         Caption = 'KONDISIONAL 1'
         OnClick = KONDISIONAL11Click
       end
+      object KONDISIONAL21: TMenuItem
+        Caption = 'KONDISIONAL 2'
+        OnClick = KONDISIONAL21Click
+      end
     end
     object DATABASE1: TMenuItem
       Caption = 'DATABASE'

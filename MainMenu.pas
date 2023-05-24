@@ -16,10 +16,12 @@ type
     LATIHAN21: TMenuItem;
     KONDISIONAL11: TMenuItem;
     EXIT1: TMenuItem;
+    KONDISIONAL21: TMenuItem;
     procedure LATIHAN21Click(Sender: TObject);
     procedure LATIHAN11Click(Sender: TObject);
     procedure KONDISIONAL11Click(Sender: TObject);
     procedure EXIT1Click(Sender: TObject);
+    procedure KONDISIONAL21Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -31,7 +33,7 @@ var
 
 implementation
 
-uses Latihan1, Latihan2, Kondisional1;
+uses Latihan1, Latihan2, Kondisional1, Kondisional2;
 
 {$R *.dfm}
 
@@ -53,6 +55,11 @@ end;
 procedure TForm1.EXIT1Click(Sender: TObject);
 begin
   Application.Terminate;
+end;
+
+procedure TForm1.KONDISIONAL21Click(Sender: TObject);
+begin
+ Form5.ShowModal;
 end;
 
 end.
