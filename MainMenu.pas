@@ -17,11 +17,13 @@ type
     KONDISIONAL11: TMenuItem;
     EXIT1: TMenuItem;
     KONDISIONAL21: TMenuItem;
+    GRAFIKSTRINNGGRID1: TMenuItem;
     procedure LATIHAN21Click(Sender: TObject);
     procedure LATIHAN11Click(Sender: TObject);
     procedure KONDISIONAL11Click(Sender: TObject);
     procedure EXIT1Click(Sender: TObject);
     procedure KONDISIONAL21Click(Sender: TObject);
+    procedure GRAFIKSTRINNGGRID1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -33,7 +35,7 @@ var
 
 implementation
 
-uses Latihan1, Latihan2, Kondisional1, Kondisional2;
+uses Latihan1, Latihan2, Kondisional1, Kondisional2, GrafikStringgrid;
 
 {$R *.dfm}
 
@@ -60,6 +62,11 @@ end;
 procedure TForm1.KONDISIONAL21Click(Sender: TObject);
 begin
  Form5.ShowModal;
+end;
+
+procedure TForm1.GRAFIKSTRINNGGRID1Click(Sender: TObject);
+begin
+  Form6.ShowModal;
 end;
 
 end.

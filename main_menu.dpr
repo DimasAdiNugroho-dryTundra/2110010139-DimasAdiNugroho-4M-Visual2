@@ -6,7 +6,8 @@ uses
   Latihan1 in 'Latihan1.pas' {Form2},
   Latihan2 in 'Latihan2.pas' {Form3},
   Kondisional1 in 'Kondisional1.pas' {Form4},
-  Kondisional2 in 'Kondisional2.pas' {Form5};
+  Kondisional2 in 'Kondisional2.pas' {Form5},
+  GrafikStringgrid in 'GrafikStringgrid.pas' {Form6};
 
 {$R *.res}
 
@@ -17,5 +18,6 @@ begin
   Application.CreateForm(TForm3, Form3);
   Application.CreateForm(TForm4, Form4);
   Application.CreateForm(TForm5, Form5);
+  Application.CreateForm(TForm6, Form6);
   Application.Run;
 end.
